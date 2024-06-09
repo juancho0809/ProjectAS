@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#Model LLM
+
+mistral-7b-instruct-v0.2.Q3_K_M.gguf
+
 # Distribution / packaging
 .Python
 build/
