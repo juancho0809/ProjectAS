@@ -109,9 +109,9 @@ def agent_answer(question: str, llm: object, vector_store: object):
 
 
 def main():
-    """This is the infinite loop to make questions to the Tennis Assistant."""
+    """This is the infinite loop to make questions to the Anime Assistant."""
 
-    print("Welcome to the Tennis Assistant!\n")
+    print("Welcome to the Anime Assistant!\n")
     current_dir = os.path.dirname(os.path.realpath(__file__))
 
 # Definir la ruta del archivo en la carpeta pdfs

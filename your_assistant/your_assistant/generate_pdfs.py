@@ -1,12 +1,9 @@
 import pandas as pd
 from fpdf import FPDF
-import os
 
 # Leer 20 filas empezando desde la fila 21
-current_dir = os.path.dirname(os.path.realpath(__file__))
-file_path = os.path.join(current_dir, 'dataclean.csv')
-# Asegúrate de cambiar esto a la ruta correcta de tu archivo CSV
-df = pd.read_csv(file_path, skiprows=range(1, 21), nrows=20)
+file_path = 'dataclean.csv'  # Asegúrate de cambiar esto a la ruta correcta de tu archivo CSV
+df = pd.read_csv(file_path, skiprows=range(1, 1072), nrows=20)
 
 # Crear una clase para el PDF
 class PDF(FPDF):
