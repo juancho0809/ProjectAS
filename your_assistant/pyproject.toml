@@ -21,6 +21,8 @@ langchain = "^0.2.2"
 llama-cpp-python = "^0.2.77"
 langchain-community = "^0.2.3"
 langchain-huggingface = "^0.0.3"
+pandas = "^2.2.2"
+fpdf = "^1.7.2"
 
 
 [build-system]
