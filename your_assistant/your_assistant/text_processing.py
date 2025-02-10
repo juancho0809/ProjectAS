@@ -1,7 +1,7 @@
 """
 This module has some functionalities regarding text processing.
 
-Author: Carlos Andrés Sierra <cavirguezs@udistrital.edu.co>
+Author: Juan Diego Lozada - Nicolas Romero
 """
 
 import sys
